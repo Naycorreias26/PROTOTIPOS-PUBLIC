@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+    background-color: #EED5D2;
+    height: 100vh;
+}
+nav{
+    -webkit-flex: 6;
+    -ms-flex: 6;
+    flex: 6;
+    background-color: #FFE4E1;
+    padding: 20px;
+    font-size: 50px;
+    font-family: "Open Sans";
+    color: #B03060;
+}
+nav i{
+    font-size: 50px;
+    font-family: "Open Sans";
+    margin: 300px 10px 0px 200px;
+    color: #B03060;
+}
+nav p{
+    text-align: center;
+    margin-top: 400px;
+    font-family: "Open Sans";
+    font-size: 65px;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 150px;
+    font-weight: 400;
+    color: #B03060;
+}
+article{
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+    padding: 10px;
+    text-align: center;
+    font-family: "Open Sans";
+}
+article h2{
+    margin-top: 250px;
+    color: #B03060;
+}
+article form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+article input{
+    outline-color: #B03060;
+    background-color: #FFE4E1;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 50px;
+    width: 100%; /* Largura total do input */
+    max-width: 300px; /* Largura máxima do input */
+}
+article input[type="submit"]{
+    background-color:#FFE4E1; /* Cor do botão */
+    color: #B03060;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 45px; /* Bordas arredondadas */
+    cursor: pointer;
+}
+input::placeholder{
+    color: #B03060;
+}
